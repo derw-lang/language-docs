@@ -1,13 +1,84 @@
 # Creating your first project
 
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+## Installing Derw
 
-## The basics
+First we need to install Derw. It's recommended that you use the latest stable version of Node, though most supported versions should work.
 
-Projects are containers for task lists. Think of them as a library for everything your team needs to get done to complete or ship a project.
+```
+npm install -g derw
+```
 
 ## Creating a project
 
-Hit the big '+' button in your sidebar and select 'New Project' from the menu that pops up. Give your project a name, and you're good to go!
+Starting a project is as simple as making a directory, then initializing Derw inside it.&#x20;
+
+```
+derw init
+```
+
+### Using templates to get started
+
+Derw comes with some templates to get you started. Right now there is only one template: for creating a web app using Derw's html library.&#x20;
+
+To create a web template, run
+
+```bash
+derw template --template web --path src/Main.derw
+```
+
+## Installing editor and CLI utils
+
+Right now the best supported editor is VSCode, with three extensions that can be used in combination to get some nice features
+
+### Install vscode-language-server
+
+The language server supports things like inline error messages.
+
+```
+git clone https://github.com/derw-lang/derw-language-server
+cp -r derw-language-server ~/.vscode/extensions/derw-language-server-0.0.1
+```
+
+### Install Derw syntax
+
+Derw syntax highlighting it provided in a separate extension
+
+```
+git clone https://github.com/derw-lang/derw-syntax
+cp -r derw-syntax ~/.vscode/extensions/derw-syntax-0.0.1
+```
+
+### Install auto-formatter
+
+The auto-formatter runs on-save for files with the .derw extension
+
+```
+git clone https://github.com/derw-lang/derw-formatter-vscode
+cp -r derw-formatter-vscode ~/.vscode/extensions/derw-formatter-vscode-0.0.1
+```
+
+### Install Bash completions
+
+If you use Bash, then you probably want some auto completion.
+
+* Clone this [repo](https://github.com/derw-lang/derw-bash-completion)
+* Source the `_derw_completions.sh` files in your `~/.bashrc` or `~/.bash_profile`, using `source`
+* Restart bash or open a new terminal session
+
+If you're using Linux, you probably want `.bashrc`. If you're using OS X, you probably want `.bash_profile`.
+
+Example .bashrc or .bash\_profile file:
+
+```
+for f in ~/dev/derw-bash-completion/_*; do source $f; done
+```
+
+#### Oh my Zsh
+
+Use `bashcompinit`.
+
+```
+autoload bashcompinit
+bashcompinit
+for f in ~/dev/derw-bash-completion/_*; do source $f; done
+```
