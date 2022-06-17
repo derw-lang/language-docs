@@ -10,7 +10,7 @@
 
 ## Fundamentals
 
-* [Projects](fundamentals/projects.md)
+* [Types](fundamentals/types.md)
 * [Members](fundamentals/members.md)
 * [Task Lists](fundamentals/task-lists.md)
 * [Tasks](fundamentals/tasks.md)
