@@ -15,3 +15,12 @@ derw install --name derw-lang/stdlib --version main
 ```
 
 If you've installed a package at a particular branch and it has updated, simply run `derw install` again and it will fetch the latest version.
+
+```bash
+To install a new package run `derw install --name {package name} --version {version}`
+Or run me without args inside a package directory to install all packages in derw-package.json
+  --name string:		name of the package e.g derw-lang/stdlib
+  --version string:		name of the package e.g main or master
+  --quiet :		Keep it short and sweet
+  -h, --help :		This help text
+```
