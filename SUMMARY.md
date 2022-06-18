@@ -6,6 +6,7 @@
 
 * [Creating your first project](guides/creating-your-first-project.md)
 * [Installing packages](guides/installing-packages.md)
+* [Compiling and running your code](guides/compiling-and-running-your-code.md)
 * [Formatting](guides/formatting.md)
 
 ## Fundamentals
