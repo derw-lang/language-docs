@@ -1,8 +1,12 @@
 # Types
 
-There are two main kinds of types in Derw: type aliases, such as those representing a JSON object, and union types, composed of multiple constructors.
+There are two main ways to declare a new type in Derw: type aliases, such as those representing a JSON object, and union types, composed of multiple constructors.
 
 Additionally, both type aliases and union types may take a type as an argument. You might want to use this to represent a generic wrapper, such as a `Maybe`.
+
+{% hint style="info" %}
+There are some builtin types: string, number, boolean, void, null
+{% endhint %}
 
 ## Type aliases
 
