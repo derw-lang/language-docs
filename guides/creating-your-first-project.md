@@ -16,6 +16,13 @@ Starting a project is as simple as making a directory, then initializing Derw in
 derw init
 ```
 
+```bash
+Initialize a directory as a Derw project.
+  --dir string:		name of a directory to use as package name e.g stdlib. 
+                        Defaults to current directory's name
+  -h, --help :		This help text
+```
+
 ### Using templates to get started
 
 Derw comes with some templates to get you started. Right now there is only one template: for creating a web app using Derw's html library.&#x20;
@@ -24,6 +31,14 @@ To create a web template, run
 
 ```bash
 derw template --template web --path src/Main.derw
+```
+
+```bash
+Generate a Derw file from a template.
+Also installs required packages.
+  --path string:		path of Derw file to create
+  --template web:		Template to use
+  -h, --help :		        This help text
 ```
 
 ## Installing editor and CLI utils
