@@ -9,3 +9,4 @@
 ## Fundamentals
 
 * [Types](fundamentals/types.md)
+* [Conditionals](fundamentals/conditionals.md)
