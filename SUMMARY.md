@@ -8,5 +8,6 @@
 
 ## Fundamentals
 
+* [Definitions](fundamentals/definitions.md)
 * [Types](fundamentals/types.md)
 * [Conditionals](fundamentals/conditionals.md)
