@@ -1,6 +1,6 @@
 # Derw
 
-[Repl and playground](https://app.gitbook.com/s/xsLYiKUIBqHoFtXVlAsD/\~/changes/NIZZs9Yb16lwLYe7oQBu/guides/repl-and-playground)[Formatting](https://app.gitbook.com/s/xsLYiKUIBqHoFtXVlAsD/\~/changes/wMr2JG319o5kqv5POfSQ/guides/formatting)[Compiling and running your code](https://app.gitbook.com/s/xsLYiKUIBqHoFtXVlAsD/\~/changes/wMr2JG319o5kqv5POfSQ/guides/compiling-and-running-your-code)Derw is a programming language aimed at making complex apps in a simple way. It's built on top of TypeScript and Node, so it's easy to have interop with TypeScript.&#x20;
+Derw is a programming language aimed at making complex apps in a simple way. It's built on top of TypeScript and Node, so it's easy to have interop with TypeScript.&#x20;
 
 With Derw, you can write both frontend and backend code. The easiest way to write frontend code is with Derw's [html](https://github.com/derw-lang/html) package, which is built upon a model-view-update structure.
 
