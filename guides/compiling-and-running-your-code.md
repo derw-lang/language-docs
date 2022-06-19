@@ -1,6 +1,10 @@
 # Compiling and running your code
 
-Now that you have some Derw code, it's time to turn it into something useful. This can be done through either compiling the code, or through bundling it - which also compiles your code. Note that both bundling and compiling have watching support, through the `--watch` flag.
+Now that you have some Derw code, it's time to turn it into something useful. This can be done through either compiling the code, or through bundling it - which also compiles your code.&#x20;
+
+{% hint style="info" %}
+Both bundling and compiling have watching support, through the `--watch` flag.
+{% endhint %}
 
 ## Compiling
 
