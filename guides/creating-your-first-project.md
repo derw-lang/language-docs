@@ -84,7 +84,7 @@ If you're using Linux, you probably want `.bashrc`. If you're using OS X, you pr
 
 Example .bashrc or .bash\_profile file:
 
-```
+```bash
 for f in ~/dev/derw-bash-completion/_*; do source $f; done
 ```
 
@@ -92,7 +92,7 @@ for f in ~/dev/derw-bash-completion/_*; do source $f; done
 
 Use `bashcompinit`.
 
-```
+```bash
 autoload bashcompinit
 bashcompinit
 for f in ~/dev/derw-bash-completion/_*; do source $f; done
