@@ -18,6 +18,7 @@
 * [Types](fundamentals/types.md)
 * [Conditionals](fundamentals/conditionals.md)
 * [Imports and exports](fundamentals/imports-and-exports.md)
+* [Comments](fundamentals/comments.md)
 
 ## 🔧 Building things
 

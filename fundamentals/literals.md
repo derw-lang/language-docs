@@ -47,20 +47,3 @@ null
 ```typescript
 { name: "Noah", age: 29 }
 ```
-
-## Spread operator
-
-In order to update an existing object, you can use the `...` spread operator. This will create a new version of the object, which you can then modify fields on. For example:
-
-```elm
-type alias Person = {
-    age: number,
-    name: string
-}
-
-person: Person
-person = { age: 27, name: "Noah" }
-
-olderPerson: Person
-olderPerson = { ...person, age: 79 } -- equal to { age: 79, name: "Noah" }
-```
