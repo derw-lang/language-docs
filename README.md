@@ -64,3 +64,7 @@ In terms of pragmatism, Derw follows Python's idea of being useful rather than p
 [repl-and-playground.md](guides/repl-and-playground.md)
 {% endcontent-ref %}
 
+{% content-ref url="guides/testing.md" %}
+[testing.md](guides/testing.md)
+{% endcontent-ref %}
+
