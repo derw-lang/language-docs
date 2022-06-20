@@ -4,8 +4,10 @@ There are two main ways to declare a new type in Derw: type aliases, such as tho
 
 Additionally, both type aliases and union types may take a type as an argument. You might want to use this to represent a generic wrapper, such as a `Maybe`.
 
+Derw's types are typically written in caps case, whereas generic arguments are lowercase. Builtin types, such as those that have direct overlap with TypeScript, are often lowercase.
+
 {% hint style="info" %}
-There are some builtin types: string, number, boolean, void, null
+There are some builtin types: string, number, boolean, void, null, any, and List&#x20;
 {% endhint %}
 
 ## Type aliases
