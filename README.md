@@ -4,6 +4,10 @@ Derw is a programming language aimed at making complex apps in a simple way. It'
 
 With Derw, you can write both frontend and backend code. The easiest way to write frontend code is with Derw's [html](https://github.com/derw-lang/html) package, which is built upon a model-view-update structure.
 
+{% hint style="info" %}
+Want to stay up to date with Derw? Follow the [blog](https://derw.substack.com/) for regular updates, the [Twitter](https://twitter.com/derwlang) for smaller updates and [star the repo](https://github.com/eeue56/derw) to keep it in your list.
+{% endhint %}
+
 ### What you'll find in this book
 
 This book will walk you through creating projects, language syntax, working with existing TypeScript and Javascript codebases, and details on how the compiler works.
@@ -47,6 +51,16 @@ Tooling-wise, Derw is influenced by Go, TypeScript and Elm. The Go idea of havin
 Package-wise, Derw follows the Elm convention of packages always being by a particular name or organization. Names for packages should not be cute, but instead follow the convention of being named based on what they do. html should be called html, for example. One break with Elm is that due to the interop-story of Derw, it is possible to have a package.json listing dependencies that your Derw package may use.&#x20;
 
 In terms of pragmatism, Derw follows Python's idea of being useful rather than pure. Derw strives to be a language that allows you to leverage existing code, e.g TypeScript and JavaScript, in a way that allows you to follow functional standards and design.
+
+## How is Derw developed?
+
+Derw started as a collection of libraries for writing TypeScript in a more functional fashion, called [Hiraeth](https://github.com/eeue56/hiraeth). These libraries were mostly for my own use, but as I used them I realized that I needed a language that wasn't TypeScript to write code in my ideally preferred fashion. The best experience I have had to this point for writing web apps has been with Elm, and having been a contributor to Elm, I figured that I could achieve something similar with some differences.
+
+Derw is currently developed in my spare time, but that doesn't mean progress is slow. In fact since Derw started, there's been over 1000 commits to Derw-related projects and repos. The pace really picked up once Derw reached a point where I could start writing things in it and have them work - i.e, once the compiler was generating code and running without bugs. I'm a big believer in designing tooling and APIs through real-world usage. Derw has been used for several real-world apps now, some quite complicated, which helped nail down the remaining bugs.
+
+Every time a new bug is found, I try to add a test to the comprehensive test suite that ensures that the bug won't be encountered again. This allows me to make big refactors quickly.
+
+To keep track of features and bugs, I use a private Pivotal Tracker instance that allows me to write down my thoughts as they come from my head, and prioritize them on a monthly basis. Each month I write up a summary of all the changes on the [Derw blog](https://derw.substack.com/).&#x20;
 
 ## Getting Started
 
