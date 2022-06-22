@@ -22,6 +22,10 @@ helloWorld =
 
 You can also check out the [examples](https://github.com/derw-lang/examples) repo for more fleshed out examples.
 
+## What can you use Derw for?
+
+Derw is perfect for interactive web apps,. You can also use it to write command line tooling, and servers.
+
 ## Derw's concept
 
 Derw, above all, should be considered pragmatic. Derw developers should be able to get things done in a reasonable manner, with an ideally obvious way to do it. Derw works with other languages to enrich the developer experience, while having a favourable syntax for those used to functional programming. If something has not been done in Derw before, then it should be, and if it's good, then it should be adopted into the language. Beginner friendliness is important, but not at the expense of experienced developers.&#x20;
