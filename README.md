@@ -24,7 +24,9 @@ You can also check out the [examples](https://github.com/derw-lang/examples) rep
 
 ## Derw's concept
 
-Derw, above all, should be considered pragmatic. Derw developers should be able to get things done in a reasonable manner, with an ideally obvious way to do it. Derw works with other languages to enrich the developer experience, while having a favourable syntax for those used to functional programming. If something has not been done in Derw before, then it should be, and if it's good, then it should be adopted into the language. Beginner friendliness is important, but not at the expense of experienced developers. Writing code that is provably correct allows developers to spend less time fixing bugs in production, leading them to deliver better products. Derw is not the answer to everyone's wishes; there are other languages out there that provide features others want, and that's okay! Derw is happy to sit in this space. You, as a Derw developer, should expect a well tested language that moves at a quick speed, helping you to write better code - and enjoy yourself while doing so.
+Derw, above all, should be considered pragmatic. Derw developers should be able to get things done in a reasonable manner, with an ideally obvious way to do it. Derw works with other languages to enrich the developer experience, while having a favourable syntax for those used to functional programming. If something has not been done in Derw before, then it should be, and if it's good, then it should be adopted into the language. Beginner friendliness is important, but not at the expense of experienced developers.&#x20;
+
+Writing code that is provably correct allows developers to spend less time fixing bugs in production, leading them to deliver better products. Derw is not the answer to everyone's wishes; there are other languages out there that provide features others want, and that's okay! Derw is happy to sit in this space. You, as a Derw developer, should expect a well tested language that moves at a quick speed, helping you to write better code - and enjoy yourself while doing so.
 
 ## What is Derw inspired by?
 
