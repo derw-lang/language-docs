@@ -23,3 +23,7 @@
 ## 🔧 Building things
 
 * [Web pages](building-things/web-pages.md)
+
+## Contributing
+
+* [Working on the compiler](contributing/working-on-the-compiler.md)
