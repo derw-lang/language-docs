@@ -35,6 +35,37 @@ incrementAges ages =
     List.map (\age -> age + 1) ages
 ```
 
+## Definitions within definitions
+
+Sometimes, you'll want to define a function or a const inside another. This is particularly useful when you have a helper function that you wish to use with a set of arguments from the parent function. These can be done via `let..in`. `let..in` are converted to local variables within the parent code, so you don't need to worry about naming collisions. You can also use `let..in` in if and case branches.
+
+### In a function
+
+```elm
+viewPerson: Person -> HtmlNode Msg
+viewPerson person =
+    let
+        viewName: HtmlNode Msg
+        viewName =
+            text person.name
+    in
+        div [] [] [ viewName ] 
+```
+
+### In a const
+
+```elm
+doubledX: number
+doubledX =
+    let
+        x: number
+        x = 5
+    in
+        x + x
+```
+
+
+
 ## Kernel code
 
 ### Consts
