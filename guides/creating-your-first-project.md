@@ -2,10 +2,10 @@
 
 ## Installing Derw
 
-First we need to install Derw. It's recommended that you use the latest stable version of Node, though most supported versions should work.
+First we need to install Derw. It's recommended that you use the latest stable version of Node, though most supported versions should work. You need ts-node to run the test runner, so it's recommended to install that too.
 
 ```
-npm install -g derw
+npm install -g ts-node derw
 ```
 
 ## Creating a project
