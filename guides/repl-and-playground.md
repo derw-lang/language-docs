@@ -4,7 +4,7 @@ You might want to explore Derw in an interactive fashion, and for that there's t
 
 ## Repl
 
-To access the repl, simply run `derw repl.`&#x20;
+To access the repl, simply run `derw repl`.
 
 In the repl, you can enter definitions for  imports, types, functions and consts. They will not be evaluated until you use `:run` or `:show`. Between each definition, you should enter a blank newline so that it will be parsed. If parsed successfully, the repl will inform you - and if not, it will show you any errors.&#x20;
 
