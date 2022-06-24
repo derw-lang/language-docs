@@ -24,6 +24,7 @@
 ## 🔧 Building things
 
 * [Web pages](building-things/web-pages.md)
+* [REPLs](building-things/repls.md)
 
 ## 🪛 Contributing
 
