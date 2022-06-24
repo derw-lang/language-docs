@@ -3,7 +3,7 @@
 * [Derw](README.md)
 * [Roadmap](roadmap.md)
 
-## Guides
+## 📖 Guides
 
 * [Creating your first project](guides/creating-your-first-project.md)
 * [Installing packages](guides/installing-packages.md)
@@ -12,7 +12,7 @@
 * [Repl and playground](guides/repl-and-playground.md)
 * [Testing](guides/testing.md)
 
-## Fundamentals
+## ⚖ Fundamentals
 
 * [Literals](fundamentals/literals.md)
 * [Definitions](fundamentals/definitions.md)
@@ -25,7 +25,7 @@
 
 * [Web pages](building-things/web-pages.md)
 
-## Contributing
+## 🪛 Contributing
 
 * [Contribution flow](contributing/contribution-flow.md)
 * [Working on the compiler](contributing/working-on-the-compiler.md)
