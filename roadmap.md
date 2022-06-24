@@ -1,6 +1,6 @@
 # Roadmap
 
-
+Derw is currently in a usable place, but there's a lot more planned. This page documents the current features, along with some ideas I have yet to implement.
 
 * [x] Arrays `[ ]`, `[ 1, 2, 3 ]`, `[ [ 1, 2, 3 ], [ 3, 2, 1 ] ]`
 * [x] Booleans `true`, `false`
