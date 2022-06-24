@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Derw](README.md)
+* [Roadmap](roadmap.md)
 
 ## Guides
 
