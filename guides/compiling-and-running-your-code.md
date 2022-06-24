@@ -6,10 +6,6 @@ Now that you have some Derw code, it's time to turn it into something useful. Th
 Both bundling and compiling have watching support, through the `--watch` flag.
 {% endhint %}
 
-{% hint style="info" %}
-The best workflow for Derw currently is to have the generated TypeScript files open for your project, to ensure that the TypeScript part compiles
-{% endhint %}
-
 ## Compiling
 
 Compiling Derw can be done through the `derw compile` command. It will compile everything in your `src` folder and anything that they depend upon. You can specify if you want to generate TypeScript or JavaScript, but the recommended option is TypeScript.
