@@ -12,6 +12,8 @@ Want to stay up to date with Derw? Follow the [blog](https://derw.substack.com/)
 
 This book will walk you through creating projects, language syntax, working with existing TypeScript and Javascript codebases, and details on how the compiler works.
 
+If you have suggested changes, feel free to open issues or pull requests [here](https://github.com/derw-lang/language-docs/)
+
 ## What does Derw look like?
 
 ```elm
