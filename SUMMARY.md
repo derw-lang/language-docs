@@ -30,3 +30,8 @@
 
 * [Contribution flow](contributing/contribution-flow.md)
 * [Working on the compiler](contributing/working-on-the-compiler.md)
+
+## 💭 Hypotheticals
+
+* [Hypotheticals](hypotheticals/hypotheticals.md)
+* [Async / await](hypotheticals/async-await.md)
