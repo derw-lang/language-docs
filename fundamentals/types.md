@@ -129,6 +129,14 @@ greeting maybeGreetingText =
         Nothing -> "No greeting for you"
 ```
 
+## Untagged union types
+
+Untagged union types represent some data that has a particular set of literal values. Currently only strings are supported.
+
+```elm
+type Animal = "cat" | "dog
+```
+
 ## Kernel code
 
 In the generated TypeScript, union types are represented as TypeScript union types, with a type for each tag. Type aliases are simply a new type. For both union types and type aliases, constructor functions are generated. When generating JavaScript, only the constructor functions are generated.
@@ -186,4 +194,16 @@ function Model(args: { name: string }): Model {
         ...args,
     };
 }
+```
+
+### Untagged union types
+
+```elm
+type Animal = "cat" | "dog"
+```
+
+compiles into&#x20;
+
+```typescript
+type Animal = "cat" | "dog"
 ```
