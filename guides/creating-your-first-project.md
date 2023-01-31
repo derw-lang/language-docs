@@ -2,10 +2,10 @@
 
 ## Installing Derw
 
-First we need to install Derw. It's recommended that you use the latest stable version of Node, though most supported versions should work.
+First we need to install Derw. It's recommended that you use the latest stable version of Node, though most supported versions should work. You need ts-node to run the test runner, so it's recommended to install that too.
 
 ```
-npm install -g derw
+npm install -g ts-node derw
 ```
 
 ## Creating a project
@@ -49,6 +49,8 @@ Right now the best supported editor is VSCode, with three extensions that can be
 
 The language server supports things like inline error messages.
 
+On the vscode store: [https://marketplace.visualstudio.com/items?itemName=derw.derw-language-server](https://marketplace.visualstudio.com/items?itemName=derw.derw-language-server)
+
 ```
 git clone https://github.com/derw-lang/derw-language-server
 cp -r derw-language-server ~/.vscode/extensions/derw-language-server-0.0.1
@@ -58,6 +60,8 @@ cp -r derw-language-server ~/.vscode/extensions/derw-language-server-0.0.1
 
 Derw syntax highlighting it provided in a separate extension
 
+On the vscode store: [https://marketplace.visualstudio.com/items?itemName=derw.derw-syntax](https://marketplace.visualstudio.com/items?itemName=derw.derw-syntax)
+
 ```
 git clone https://github.com/derw-lang/derw-syntax
 cp -r derw-syntax ~/.vscode/extensions/derw-syntax-0.0.1
@@ -66,6 +70,8 @@ cp -r derw-syntax ~/.vscode/extensions/derw-syntax-0.0.1
 ### Install auto-formatter
 
 The auto-formatter runs on-save for files with the .derw extension
+
+On the vscode store: [https://marketplace.visualstudio.com/items?itemName=derw.derw-formatter-vscode](https://marketplace.visualstudio.com/items?itemName=derw.derw-formatter-vscode)
 
 ```
 git clone https://github.com/derw-lang/derw-formatter-vscode
