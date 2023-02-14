@@ -34,7 +34,11 @@ Derw is perfect for interactive web apps,. You can also use it to write command 
 
 ## Derw's concept
 
-Derw, above all, should be considered pragmatic. Derw developers should be able to get things done in a reasonable manner, with an ideally obvious way to do it. Derw works with other languages to enrich the developer experience, while having a favourable syntax for those used to functional programming. If something has not been done in Derw before, then it should be, and if it's good, then it should be adopted into the language. Beginner friendliness is important, but not at the expense of experienced developers.&#x20;
+Derw prioritizes practicality above all else. The language is designed to empower developers to get things done in a straightforward and intuitive manner. Derw integrates seamlessly with other programming languages to enhance the development experience. Its syntax is particularly well-suited for those familiar with functional programming.
+
+Derw is a language that is open to new ideas and approaches. If there is something that has not been done in Derw before, the community should work towards implementing it, and if it proves to be a valuable addition, it should be incorporated into the language.
+
+While Derw is beginner-friendly, it is also designed to cater to the needs of experienced developers. It strikes a balance between simplicity and functionality, ensuring that developers of all levels can write efficient, high-quality code with ease.
 
 Writing code that is provably correct allows developers to spend less time fixing bugs in production, leading them to deliver better products. Derw is not the answer to everyone's wishes; there are other languages out there that provide features others want, and that's okay! Derw is happy to sit in this space. You, as a Derw developer, should expect a well tested language that moves at a quick speed, helping you to write better code - and enjoy yourself while doing so.
 
